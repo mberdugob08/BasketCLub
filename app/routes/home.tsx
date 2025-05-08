@@ -21,6 +21,10 @@ export default function Home() {
       <a href="#entrenamientos">Entrenamientos</a>
       <a href="#contacto">Contacto</a>
       <a href="#campamento">Campamento</a>
+      <a href="#logros">Logros</a>
+      <a href="#entrenadores">Entrenadores</a>
+      <a href="#formularios">Formularios</a>
+      <a href="#Últimas noticias">Últimas noticias</a>
     </nav>
 
     <section id="nosotros">
@@ -61,6 +65,42 @@ export default function Home() {
       <p>
         Para más información e inscripciones, escríbenos a: <strong>campamento@bce.es</strong>
       </p>
+    </section>
+
+    <section id="logros">
+      <h2>Nuestros Logros</h2>
+      <ul>
+        <li>🏅 Campeones Regionales Sub-18 (2023)</li>
+        <li>🥈 Subcampeones Liga Senior (2022)</li>
+        <li>🏆 Torneo Nacional de Verano (2021)</li>
+      </ul>
+    </section>
+
+    <section id="entrenadores">
+      <h2>Nuestros Entrenadores</h2>
+      <ul>
+        <li><strong>Carlos Ruiz</strong> – Coach principal del equipo senior (Licenciado en Ciencias del Deporte)</li>
+        <li><strong>Laura Gómez</strong> – Preparadora física y técnica del equipo juvenil</li>
+        <li><strong>David Torres</strong> – Entrenador de fundamentos para categorías infantiles</li>
+      </ul>
+    </section>
+
+    <section id="formulario">
+      <h2>Envíanos un mensaje</h2>
+      <form action="https://formspree.io/f/tu-form-id" method="POST">
+        <input type="text" name="name" placeholder="Tu nombre" required />
+        <input type="email" name="email" placeholder="Tu email" required />
+        <textarea name="message" placeholder="Tu mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section id="noticias">
+      <h2>Últimas Noticias</h2>
+      <article>
+        <h3>Iniciamos la temporada 2025 con nuevos equipos</h3>
+        <p>Este año damos la bienvenida a dos nuevas categorías y estrenamos uniformes. ¡Vamos BCE!</p>
+      </article>
     </section>
 
     <footer>
