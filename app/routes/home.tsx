@@ -1,7 +1,6 @@
 import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
 import "./home.css"
-import { Link } from "react-router";
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "New React Router App" },
@@ -12,23 +11,6 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     <div>
-    <header>
-      <h1>Basket Club Emari</h1>
-      <p>Pasión, trabajo en equipo y espíritu deportivo</p>
-    </header>
-
-    <nav>
-      <a href="#nosotros">Nosotros</a>
-      <a href="#entrenamientos">Entrenamientos</a>
-      <a href="#contacto">Contacto</a>
-      <a href="#campamento">Campamento</a>
-      <a href="#logros">Logros</a>
-      <a href="#entrenadores">Entrenadores</a>
-      <a href="#formularios">Formularios</a>
-      <Link to="/historia">Historia del Club</Link>
-      <Link to="/tienda">Tienda Oficial</Link>
-    </nav>
-
     <section id="nosotros">
       <h2>Sobre el Club</h2>
       <p>
@@ -87,7 +69,7 @@ export default function Home() {
       </ul>
     </section>
 
-    <section id="formulario">
+    <section id="formularios">
       <h2>Envíanos un mensaje</h2>
       <form action="https://formspree.io/f/tu-form-id" method="POST">
         <input type="text" name="name" placeholder="Tu nombre" required />
@@ -96,10 +78,6 @@ export default function Home() {
         <button type="submit">Enviar</button>
       </form>
     </section>
-
-    <footer>
-      <p>© 2025 Basket Club Emari - Todos los derechos reservados</p>
-    </footer>
   </div>
   );
 }
