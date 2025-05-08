@@ -30,7 +30,7 @@ npm install
 ```bash
 npm run dev
 ```
-
-- ```bash
+- Construcción:
+```bash
 npm run build
 ```
