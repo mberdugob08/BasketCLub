@@ -1,4 +1,4 @@
-# 🏀 Basket Club [Nombre del Club]
+# 🏀 Basket Club Emarí
 
 Bienvenido al repositorio oficial de la página web del **Basket Club Emarí**. Aquí encontrarás toda la información relacionada con nuestro equipo, noticias, calendario de partidos, resultados, y mucho más.
 
