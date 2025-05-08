@@ -12,8 +12,8 @@ export default function Home() {
   return (
     <main>
       <h1>HOLA</h1>
+    <h2>Cambio desde 2a</h2>
 
-      
     </main>
   );
 }
