@@ -1,6 +1,7 @@
 import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
 import "./home.css"
+import { Link } from "react-router";
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "New React Router App" },
@@ -24,7 +25,8 @@ export default function Home() {
       <a href="#logros">Logros</a>
       <a href="#entrenadores">Entrenadores</a>
       <a href="#formularios">Formularios</a>
-      <a href="#Últimas noticias">Últimas noticias</a>
+      <Link to="/historia">Historia del Club</Link>
+      <Link to="/tienda">Tienda Oficial</Link>
     </nav>
 
     <section id="nosotros">
@@ -93,14 +95,6 @@ export default function Home() {
         <textarea name="message" placeholder="Tu mensaje" required></textarea>
         <button type="submit">Enviar</button>
       </form>
-    </section>
-
-    <section id="noticias">
-      <h2>Últimas Noticias</h2>
-      <article>
-        <h3>Iniciamos la temporada 2025 con nuevos equipos</h3>
-        <p>Este año damos la bienvenida a dos nuevas categorías y estrenamos uniformes. ¡Vamos BCE!</p>
-      </article>
     </section>
 
     <footer>
